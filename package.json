@@ -39,7 +39,8 @@
     "chromatic": "^7.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "storybook": "^7.4.1"
+    "storybook": "^7.4.1",
+    "svelte": "^4.2.2"
   },
   "bugs": {
     "url": "https://github.com/hckang80/svelte-design-system/issues"
