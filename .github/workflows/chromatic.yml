@@ -6,10 +6,8 @@ on: push
 
 # List of jobs
 jobs:
-  test:
-    # Operating System
+  chromatic-deploy:
     runs-on: ubuntu-latest
-    # Job steps
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -19,7 +17,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "20.5.1"
+          node-version: "18.16.0"
 
       - name: Install pnpm
         run: |
@@ -27,12 +25,12 @@ jobs:
 
       - name: Install Dependency
         run: pnpm install -no-frozen-lockfile
+        working-directory: packages/web-ui
 
       - name: Publish Chromatic
-        #👇 Adds Chromatic as a step in the workflow
+        id: chromatic
         uses: chromaui/action@v1
-        # Options required for Chromatic's GitHub Action
         with:
-          #👇 Chromatic projectToken, see https://storybook.js.org/tutorials/intro-to-storybook/angular/en/deploy/ to obtain it
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          workingDir: packages/web-ui/src
+          projectToken: ${{ secrets.CHROMATIC_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
