@@ -1,10 +1,11 @@
 {
   "name": "svelte-design-system",
-  "version": "0.0.2-beta",
+  "version": "0.0.3-beta",
   "description": "Practice npm deployment",
   "files": [
     "stories/**"
   ],
+  "repository": "https://github.com/hckang80/svelte-design-system",
   "main": "dist/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
