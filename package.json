@@ -1,15 +1,27 @@
 {
   "name": "svelte-design-system",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1-beta",
+  "description": "Practice npm deployment",
+  "files": [
+    "dist/src/**"
+  ],
+  "main": "dist/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "ui",
+    "design",
+    "system",
+    "svelte",
+    "storybook"
+  ],
+  "author": {
+    "name": "Hee-chang Kang",
+    "email": "hakang80@gmail.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "@storybook/addon-essentials": "^7.4.1",
