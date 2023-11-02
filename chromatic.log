@@ -1,0 +1,118 @@
+
+Chromatic CLI v7.6.0
+https://www.chromatic.com/docs/cli
+
+Authenticating with Chromatic
+    → Connecting to https://index.chromatic.com
+Authenticated with Chromatic
+    → Using project token '****************8d9d'
+Retrieving git information
+Retrieved git information
+    → Commit '2da7d21' on branch 'main'; no ancestor found
+Collecting Storybook metadata
+Collected Storybook metadata
+    → Storybook 7.5.2 for Svelte; using the @storybook/sveltekit builder (7.5.2); supported addons found: Links, Essentials, Interactions
+Initializing build
+Initialized build
+    → Build 1 initialized
+Building your Storybook
+    → Running command: pnpm run build-storybook --output-dir /var/folders/mx/00t4bc057pz86xbt_mwklj5r0000gn/T/chromatic--56941-izr8wjaxdrU6
+Storybook built in 7 seconds
+    → View build log at /Users/sky/Desktop/svelte-design-system/build-storybook.log
+Publish your built Storybook
+    → Validating Storybook files
+Publishing your built Storybook
+    → Retrieving target location
+    → Starting publish
+    → [                    ] 0%
+    → [                    ] 2%
+    → [=                   ] 4%
+    → [=                   ] 5%
+    → [=                   ] 6%
+    → [=                   ] 7%
+    → [==                  ] 8%
+    → [==                  ] 9%
+    → [==                  ] 11%
+    → [===                 ] 17%
+    → [====                ] 19%
+    → [====                ] 20%
+    → [====                ] 22%
+    → [=====               ] 24%
+    → [=====               ] 26%
+    → [======              ] 28%
+    → [======              ] 29%
+    → [======              ] 30%
+    → [======              ] 31%
+    → [======              ] 32%
+    → [=======             ] 33%
+    → [=======             ] 35%
+    → [=======             ] 37%
+    → [========            ] 39%
+    → [========            ] 40%
+    → [========            ] 41%
+    → [========            ] 42%
+    → [=========           ] 44%
+    → [=========           ] 46%
+    → [=========           ] 47%
+    → [==========          ] 48%
+    → [==========          ] 50%
+    → [==========          ] 51%
+    → [===========         ] 53%
+    → [===========         ] 54%
+    → [===========         ] 55%
+    → [===========         ] 56%
+    → [===========         ] 57%
+    → [============        ] 58%
+    → [============        ] 59%
+    → [============        ] 60%
+    → [============        ] 61%
+    → [=============       ] 63%
+    → [=============       ] 64%
+    → [=============       ] 66%
+    → [=============       ] 67%
+    → [==============      ] 69%
+    → [==============      ] 71%
+    → [===============     ] 73%
+    → [===============     ] 76%
+    → [================    ] 78%
+    → [================    ] 79%
+    → [================    ] 81%
+    → [================    ] 82%
+    → [=================   ] 83%
+    → [=================   ] 85%
+    → [=================   ] 86%
+    → [=================   ] 87%
+    → [==================  ] 88%
+    → [==================  ] 89%
+    → [==================  ] 90%
+    → [==================  ] 92%
+    → [=================== ] 94%
+    → [=================== ] 95%
+    → [=================== ] 96%
+    → [=================== ] 97%
+    → [====================] 98%
+    → [====================] 99%
+Publish complete in 15 seconds
+    → View your Storybook at https://654301518df6e8d5a87ec1e3-myaekejwew.chromatic.com
+Verifying your Storybook
+    → This may take a few minutes
+Started build 1
+    → Continue setup at https://www.chromatic.com/setup?appId=654301518df6e8d5a87ec1e3
+Running 8 tests
+    → This may take a few minutes
+ℹ Speed up Continuous Integration
+Your project is linked to GitHub so Chromatic will report results there.
+This means you can pass the --exit-once-uploaded flag to skip waiting for build results.
+Read more here: https://www.chromatic.com/docs/cli#chromatic-options
+    → [===                 ] 1/8  Button › Primary 
+    → [========            ] 3/8  Button › Large 
+    → [=============       ] 5/8  Header › Logged In 
+    → [==================  ] 7/8  Page › Logged Out 
+    → [====================] 8/8  Page › Logged In 
+✔ Build passed. Welcome to Chromatic!
+We found 3 components with 8 stories and took 8 snapshots.
+ℹ Please continue setup at https://www.chromatic.com/setup?appId=654301518df6e8d5a87ec1e3
+Build 1 auto-accepted
+    → Tested 8 stories across 3 components; captured 8 snapshots in 15 seconds
+
+
