@@ -1,9 +1,9 @@
 {
   "name": "svelte-design-system",
-  "version": "0.0.1-beta",
+  "version": "0.0.2-beta",
   "description": "Practice npm deployment",
   "files": [
-    "dist/src/**"
+    "stories/**"
   ],
   "main": "dist/src/index.js",
   "scripts": {
